@@ -1,0 +1,56 @@
+table{
+    border-collapse: collapse;
+    align-items:center;
+
+}
+body{
+    margin: 0;
+   height: 100%;
+   display:flex;
+    justify-content: center;
+   align-items: center;
+   background-color:lightblue;
+    flex-direction: column;
+}
+td{
+    padding: 40px;
+    border: 3px black solid;
+     background-color:white;
+}
+button {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    font-size: 50px;
+    font-weight:bolder;
+    background-color:transparent;
+    border:none;
+
+}
+.btn{
+    display:flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+#reset:hover{
+    background-color:red;
+}
+#submit{
+    width:100px;
+    height:50px;
+    border:1px black solid;
+    border-radius: 5px;
+    background-color:lightpink;
+
+}
+#reset{
+    width:100px;
+    height:50px;
+    border:1px black solid;
+    border-radius: 5px;
+    background-color:lightpink;
+    font-size:20px;
+
+}
